@@ -1,6 +1,10 @@
 import React from "react";
 import './UserItem.css';
 
-const UserItem = () => {};
+const UserItem = props => {
+    return (
+        
+    ); 
+};
 
 export default UsersItem;
