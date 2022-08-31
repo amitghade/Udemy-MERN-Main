@@ -93,6 +93,7 @@ const Auth = () => {
           label="Password"
           validators={[VALIDATOR_MINLENGTH(5)]}
           errorText="Please enter a valid password, at least 5 characters"
+          autocomplete="true"
           onInput={inputHandler}
         />
         <Button type="submit" disabled={!formState.isValid}>
